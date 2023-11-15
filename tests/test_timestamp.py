@@ -7,7 +7,7 @@ import rootstalk.timestamp as ts
 
 
 def test_timestamp():
-    """Tests that the date/time stamp in ISO format in UTC time zone."""
+    """Tests the date and time stamp in ISO format in UTC time zone."""
     result = ts.date_time_utc()
     print(result)
 
