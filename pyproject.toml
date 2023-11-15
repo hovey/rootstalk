@@ -27,7 +27,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "black==22.6.0",
+    "black",
     "flake8",
     "pytest",
     "pytest-cov",
