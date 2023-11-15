@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 def date_time_utc() -> str:
-    """Returns that the date and time stamp in ISO format in UTC time zone.
+    """Returns the date and time stamp in ISO format in UTC time zone.
 
     Example:
         2023-11-15_UTC_17_06_13_007269
