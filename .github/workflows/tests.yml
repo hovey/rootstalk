@@ -61,11 +61,11 @@ jobs:
         verbose: true # optional (default = false)
     - name: Test with Black
       run: |
-        black --check src/atmesh --diff
+        black --check src/rootstalk --diff
         black --check tests --diff
     - name: Test with flake8
       run: |
-        flake8 src/atmesh --ignore E203,E501,W503 --statistics
+        flake8 src/rootstalk --ignore E203,E501,W503 --statistics
         flake8 tests --ignore E203,E501,W503 --statistics
         # E203 whitespace before ':'
         # E501 line length exceeds 79 characters
