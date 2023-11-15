@@ -44,7 +44,7 @@ jobs:
         pytest -v
     - name: Generate coverage report
       run: |
-        pytest --cov=atmesh --cov-report=xml
+        pytest --cov=rootstalk --cov-report=xml
     - name: Upload coverage to Codecov
       # https://github.com/codecov/codecov-action/blob/master/README.md
       uses: codecov/codecov-action@v3
