@@ -48,10 +48,10 @@ jobs:
     - name: Upload coverage to Codecov
       # https://github.com/codecov/codecov-action/blob/master/README.md
       uses: codecov/codecov-action@v3
-      env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      # env:
+      #   CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       with:
-        # token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+        token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
         # files: ./coverage1.xml,./coverage2.xml # optional
         files: ./coverage.xml
         flags: unittests # optional
